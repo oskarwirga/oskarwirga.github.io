@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
     <style>
       body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font: 18px/1.6 system-ui, sans-serif; }
       header { margin-bottom: 4rem; }
