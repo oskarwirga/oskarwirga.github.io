@@ -1,0 +1,14 @@
+title: Oskar Wirga
+description: Notes by Oskar Wirga.
+url: "https://oskarwirga.github.io"
+permalink: /:title/
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
